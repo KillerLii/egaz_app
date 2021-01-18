@@ -148,7 +148,7 @@ class UserCardInfoState extends State<UserCardInfo> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Text('$name_c',style: TextStyle(fontSize: 35,color: Colors.blueGrey)),
+              Text('$name_c',style: TextStyle(fontSize: 25,color: Colors.blueGrey,fontWeight: FontWeight.bold)),
               SizedBox(height: 5),
               Text('$code_c',style: TextStyle(fontSize: 20,color: Colors.blueGrey)),
               SizedBox(height: 200),
